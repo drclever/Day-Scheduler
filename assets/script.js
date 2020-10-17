@@ -19,10 +19,67 @@ $(document).ready(function() {
 
     //Use jquery to save textarea input to local storage
     $(".button9").on("click", function () {
+        event.preventDefault();
         let newText = $(".entry-9").val();
         localStorage.setItem("text9", newText);
-    })
+    });
     $(".entry-9").val(localStorage.getItem("text9"));
+
+    $(".button10").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-10").val();
+        localStorage.setItem("text10", newText);
+    });
+    $(".entry-10").val(localStorage.getItem("text10"));
+
+    $(".button11").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-11").val();
+        localStorage.setItem("text11", newText);
+    });
+    $(".entry-11").val(localStorage.getItem("text11"));
+    
+    $(".button12").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-12").val();
+        localStorage.setItem("text12", newText);
+    });
+    $(".entry-12").val(localStorage.getItem("text12"));
+
+    $(".button13").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-13").val();
+        localStorage.setItem("text13", newText);
+    });
+    $(".entry-13").val(localStorage.getItem("text13"));
+
+    $(".button14").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-14").val();
+        localStorage.setItem("text14", newText);
+    });
+    $(".entry-14").val(localStorage.getItem("text14"));
+
+    $(".button15").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-15").val();
+        localStorage.setItem("text15", newText);
+    });
+    $(".entry-15").val(localStorage.getItem("text15"));
+    
+    $(".button16").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-16").val();
+        localStorage.setItem("text16", newText);
+    });
+    $(".entry-16").val(localStorage.getItem("text16"));
+
+    $(".button17").on("click", function () {
+        event.preventDefault();
+        let newText = $(".entry-17").val();
+        localStorage.setItem("text17", newText);
+    });
+    $(".entry-17").val(localStorage.getItem("text17"));
 
 });
 
