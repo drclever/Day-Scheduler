@@ -88,7 +88,7 @@ $(document).ready(function() {
     if (currentHour > 9) {
         $(".entry-9").addClass("past");
         }	
-        else if (currentHour >= 9 && currentHour < 10) {
+        else if (currentHour == 9) {
             $(".entry-9").addClass("present");
         }
         else if (currentHour < 9) {
@@ -98,7 +98,7 @@ $(document).ready(function() {
     if (currentHour > 10) {
         $(".entry-10").addClass("past");
         }
-        else if (currentHour >= 10 && currentHour < 11) {
+        else if (currentHour == 10) {
             $(".entry-10").addClass("present");
         }
         else if (currentHour < 10) {
@@ -108,7 +108,7 @@ $(document).ready(function() {
     if (currentHour > 11) {
         $(".entry-11").addClass("past");
         }
-        else if (currentHour >= 11 && currentHour < 12) {
+        else if (currentHour == 11) {
             $(".entry-11").addClass("present");
         }
         else if (currentHour < 11) {
@@ -118,7 +118,7 @@ $(document).ready(function() {
     if (currentHour > 12) {
         $(".entry-12").addClass("past");
         }
-        else if (currentHour >= 12 && currentHour < 13) {
+        else if (currentHour == 12) {
             $(".entry-12").addClass("present");
         }
         else if (currentHour < 12) {
@@ -128,7 +128,7 @@ $(document).ready(function() {
     if (currentHour > 13) {
         $(".entry-13").addClass("past");
         }
-        else if (currentHour >= 13 && currentHour < 14) {
+        else if (currentHour == 13) {
             $(".entry-13").addClass("present");
         }
         else if (currentHour < 13) {
@@ -138,7 +138,7 @@ $(document).ready(function() {
     if (currentHour > 14) {
         $(".entry-14").addClass("past");
         }
-        else if (currentHour >= 14 && currentHour < 15) {
+        else if (currentHour == 14) {
             $(".entry-14").addClass("present");
         }
         else if (currentHour < 14) {
@@ -148,7 +148,7 @@ $(document).ready(function() {
     if (currentHour > 15) {
         $(".entry-15").addClass("past");
         }
-        else if (currentHour >= 15 && currentHour < 16) {
+        else if (currentHour == 15) {
             $(".entry-15").addClass("present");
         }
         else if (currentHour < 15) {
@@ -158,7 +158,7 @@ $(document).ready(function() {
     if (currentHour > 16) {
         $(".entry-16").addClass("past");
         }
-        else if (currentHour >= 16 && currentHour < 17) {
+        else if (currentHour == 16) {
             $(".entry-16").addClass("present");
         }
         else if (currentHour < 16) {
@@ -168,7 +168,7 @@ $(document).ready(function() {
     if (currentHour > 17) {
         $(".entry-17").addClass("past");
         }
-        else if (currentHour >= 17 && currentHour < 18) {
+        else if (currentHour == 17) {
             $(".entry-17").addClass("present");
         }
         else if (currentHour < 17) {
