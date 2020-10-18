@@ -17,7 +17,8 @@ $(document).ready(function() {
         localStorage.setItem("text9", inputTextarea9.value);
     }; */
 
-    //Use jquery to save textarea input to local storage
+    //Use jquery to save textarea input to local storage.  Using military time for numbers. 
+    //Start with 9am to 5pm in military time.
     $(".button9").on("click", function () {
         event.preventDefault();
         let newText = $(".entry-9").val();
@@ -81,5 +82,97 @@ $(document).ready(function() {
     });
     $(".entry-17").val(localStorage.getItem("text17"));
 
-});
+    // Determine Styling of each textarea box
+    var currentHour= new Date().getHours();
 
+    if (currentHour > 9) {
+        $(".entry-9").addClass("past");
+        }	
+        else if (currentHour >= 9 && currentHour < 10) {
+            $(".entry-9").addClass("present");
+        }
+        else if (currentHour < 9) {
+            $(".entry-9").addClass("future");
+        }
+
+    if (currentHour > 10) {
+        $(".entry-10").addClass("past");
+        }
+        else if (currentHour >= 10 && currentHour < 11) {
+            $(".entry-10").addClass("present");
+        }
+        else if (currentHour < 10) {
+            $(".entry-10").addClass("future");
+        }
+
+    if (currentHour > 11) {
+        $(".entry-11").addClass("past");
+        }
+        else if (currentHour >= 11 && currentHour < 12) {
+            $(".entry-11").addClass("present");
+        }
+        else if (currentHour < 11) {
+            $(".entry-11").addClass("future");
+        }
+
+    if (currentHour > 12) {
+        $(".entry-12").addClass("past");
+        }
+        else if (currentHour >= 12 && currentHour < 13) {
+            $(".entry-12").addClass("present");
+        }
+        else if (currentHour < 12) {
+            $(".entry-12").addClass("future");
+        }
+
+    if (currentHour > 13) {
+        $(".entry-13").addClass("past");
+        }
+        else if (currentHour >= 13 && currentHour < 14) {
+            $(".entry-13").addClass("present");
+        }
+        else if (currentHour < 13) {
+            $(".entry-13").addClass("future");
+        }
+
+    if (currentHour > 14) {
+        $(".entry-14").addClass("past");
+        }
+        else if (currentHour >= 14 && currentHour < 15) {
+            $(".entry-14").addClass("present");
+        }
+        else if (currentHour < 14) {
+            $(".entry-14").addClass("future");
+        }
+
+    if (currentHour > 15) {
+        $(".entry-15").addClass("past");
+        }
+        else if (currentHour >= 15 && currentHour < 16) {
+            $(".entry-15").addClass("present");
+        }
+        else if (currentHour < 15) {
+            $(".entry-15").addClass("future");
+        }
+
+    if (currentHour > 16) {
+        $(".entry-16").addClass("past");
+        }
+        else if (currentHour >= 16 && currentHour < 17) {
+            $(".entry-16").addClass("present");
+        }
+        else if (currentHour < 16) {
+            $(".entry-16").addClass("future");
+        }
+
+    if (currentHour > 17) {
+        $(".entry-17").addClass("past");
+        }
+        else if (currentHour >= 17 && currentHour < 18) {
+            $(".entry-17").addClass("present");
+        }
+        else if (currentHour < 17) {
+            $(".entry-17").addClass("future");
+        }
+
+});
