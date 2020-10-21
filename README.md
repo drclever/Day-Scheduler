@@ -25,5 +25,5 @@ The application allows the user to save events for each hour of the day.
 https://drclever.github.io/Day-Scheduler
 
 
-## Random Password Generator Image
+## Day Scheduler Image
 ![Day Scheduler Image](./Day-Scheduler.PNG)
