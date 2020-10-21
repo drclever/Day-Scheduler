@@ -26,4 +26,4 @@ https://drclever.github.io/Day-Scheduler
 
 
 ## Random Password Generator Image
-![Day Scheduler Image](./Day-Scheduler.png)
+![Day Scheduler Image](./Day-Scheduler.PNG)
