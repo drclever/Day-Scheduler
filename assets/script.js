@@ -27,6 +27,12 @@ $(document).ready(function() {
         localStorage.setItem(value, text);
     });
 
+    //Use jQuery to clear local storage and refresh the page
+    $("#clear").click(function() {
+        localStorage.clear();
+        location.reload()
+    });
+
 
     // Determine Styling of each textarea box (past = gray, present = red, future = green)
 

@@ -82,3 +82,25 @@ textarea{
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
+
+/* Clear Button CSS */
+.clearBtn {
+  float: center;
+  border-radius: 10px;
+  background-color: #06AED5;
+  color: white;
+  opacity: 1;
+  font-size: 25px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+}
+.clearBtn:Hover {
+  font-size: 30px;
+  opacity: 0.6;
+  transition: all .3s ease-in-out;
+}
+.clearBtn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
