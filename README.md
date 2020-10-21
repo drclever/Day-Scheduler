@@ -8,7 +8,8 @@ The application allows the user to save events for each hour of the day.
 ## Logic Requirements
 * When the planner is opened, the current day is displayed at the top of the calendar.
 * When the user scrolls down, timeblocks will be presented for standard business hours (9am to 5pm).
-* When an event is entered, the timeblock will be save by clicking the save button in local storage.
+* When the user clicks in a timeblock, an event can be entered.
+* The timeblock will be saved in local storage by clicking the save button.
 * When the page is refreshed, the saved events will persist.
 
 ## Built with
