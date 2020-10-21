@@ -103,4 +103,14 @@ textarea{
 .clearBtn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-  }
+}
+
+/* A Media Query max-width: 960px */
+@media screen and (max-width: 960px) {
+ 
+    /* Styles for the wrapper div */
+        .container {
+            width: auto;
+            margin: 0 auto;
+        }
+}
